@@ -15,6 +15,7 @@ public class EstudianteDistancia extends Estudiante{
         costoAsignatura = costoAsg;
     }
     
+    
     @Override
     public void establecerNombresEstudiante(String nom){
         nombresEstudiante = nom.toUpperCase(); // Juan.toUpperCase() >> JUAN 
